@@ -146,10 +146,10 @@ export function Cards({ pairsCount = 3, previewSeconds = 5 }) {
 
     if (status === STATUS_WON) {
       if (!isAlohomora && !isVision) {
-        addAchievement(1);
+        addAchievement(2);
       }
       if (!isEnabled) {
-        addAchievement(2);
+        addAchievement(1);
       }
     }
   }
